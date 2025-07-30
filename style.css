@@ -1,0 +1,128 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  background-color: #f2f9ff;
+  color: #222;
+  line-height: 1.6;
+}
+
+
+header {
+  background: #0066cc; 
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+header h1 {
+  font-size: 2.5rem;
+}
+nav {
+  margin-top: 15px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #b2ffcc;
+}
+
+
+section {
+  padding: 50px 20px;
+  max-width: 960px;
+  margin: auto;
+  background: white;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+section h2, h3 {
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+section p {
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+
+button, .whatsapp-link {
+  background-color: #00c168; 
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+button:hover, .whatsapp-link:hover {
+  background-color: #00a958;
+  transform: translateY(-2px);
+}
+
+.booking-box {
+  margin-top: 30px;
+  background-color: #f8fefe;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #dceefb;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+.booking-box h3 {
+  color: #0066cc;
+  margin-bottom: 20px;
+}
+.booking-box input,
+.booking-box textarea {
+  width: 95%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+
+.whatsapp-link {
+  background-color: #25d366;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+footer {
+  background-color: #0066cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.95rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  section {
+    padding: 30px 15px;
+  }
+}
