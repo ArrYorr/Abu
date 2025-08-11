@@ -43,6 +43,19 @@ header img {
   width: auto;
 }
 
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.site-logo {
+  position: relative;
+    height: 50px;
+    width: 50px;
+}
+
 
 /* Navigation */
 nav {
